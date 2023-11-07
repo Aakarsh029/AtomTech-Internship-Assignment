@@ -46,16 +46,35 @@
                             font-size: 14px;
                             margin: 5px 0 5px 0;
                         }
-                        input{
-                            font-size: 12px;
-                            padding: 10px;
-                            border: none;
-                            border-radius: 5px;
+                        .Email{
                             background-color: #FAFAFA;
+                            border-radius: 5px;
+                            input{
+                                font-size: 12px;
+                                padding: 10px;
+                                border: none;
+                                width: 240px;
+                                background-color: transparent;
+                            }
+                            input:focus{
+                                outline: none;
+                                border: none;
+                            }
                         }
-                        input:focus{
-                            outline: none;
-                            border: none;
+                        .Password{
+                            background-color: #FAFAFA;
+                            border-radius: 5px;
+                            input{
+                                font-size: 12px;
+                                width: 240px;
+                                padding: 10px;
+                                border: none;
+                                background-color: transparent;
+                            }
+                            input:focus{
+                                outline: none;
+                                border: none;
+                            }
                         }
                     }
                     .LeftCheckbox{
