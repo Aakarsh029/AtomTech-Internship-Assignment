@@ -6,10 +6,12 @@
     width: 100vw;
     flex-wrap: wrap;
     overflow: hidden;
+    background-color: #FAFAFA;
 
     .Left {
         flex-basis: 35%;
         display: flex;
+        background-color: #fff;
         justify-content: center;
         align-items: center;
 
