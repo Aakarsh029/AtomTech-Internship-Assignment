@@ -105,6 +105,7 @@
 @media only screen and (max-width: 700px) {
     .Left{
         flex-basis: 100%;
+        width: 100vw;
     }
     .Right{
         display: none;
