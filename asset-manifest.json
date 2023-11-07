@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/AtomTech-Internship-Assignment/static/css/main.8f10ce49.css",
-    "main.js": "/AtomTech-Internship-Assignment/static/js/main.76fc0b95.js",
+    "main.css": "/AtomTech-Internship-Assignment/static/css/main.dbf475ea.css",
+    "main.js": "/AtomTech-Internship-Assignment/static/js/main.1c65293b.js",
     "static/js/787.2ab67fb5.chunk.js": "/AtomTech-Internship-Assignment/static/js/787.2ab67fb5.chunk.js",
     "index.html": "/AtomTech-Internship-Assignment/index.html",
-    "main.8f10ce49.css.map": "/AtomTech-Internship-Assignment/static/css/main.8f10ce49.css.map",
-    "main.76fc0b95.js.map": "/AtomTech-Internship-Assignment/static/js/main.76fc0b95.js.map",
+    "main.dbf475ea.css.map": "/AtomTech-Internship-Assignment/static/css/main.dbf475ea.css.map",
+    "main.1c65293b.js.map": "/AtomTech-Internship-Assignment/static/js/main.1c65293b.js.map",
     "787.2ab67fb5.chunk.js.map": "/AtomTech-Internship-Assignment/static/js/787.2ab67fb5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f10ce49.css",
-    "static/js/main.76fc0b95.js"
+    "static/css/main.dbf475ea.css",
+    "static/js/main.1c65293b.js"
   ]
 }
