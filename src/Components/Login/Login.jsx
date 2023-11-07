@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from "./Login.module.scss";
 export default function Login() {
+    const [passwordShown, setPasswordShown] = useState(false);
+    const togglePassword = () => {
+        setPasswordShown(!passwordShown);
+    };
     return (
         <div className={styles.Login}>
             <div className={styles.Left}>
@@ -49,13 +53,16 @@ export default function Login() {
                             <div className={styles.input}>
                                 <label>Email Address</label>
                                 <div className={styles.Email}>
-                                <input type="email" name="email" placeholder="example@abc.com" />
+                                    <input type="email" name="email" placeholder="example@abc.com" />
                                 </div>
                             </div>
                             <div className={styles.input}>
                                 <label>Password</label>
                                 <div className={styles.Password}>
-                                <input type="password" name="Password" placeholder='Password' />
+                                    <input type={passwordShown ? "text" : "password"} name="Password" placeholder='Password' />
+                                    <span onClick={togglePassword}>
+                                        {passwordShown ? '👁️' : '👁️‍🗨️'}
+                                    </span>
                                 </div>
                             </div>
                             <div className={styles.LeftCheckbox}>
