@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/AtomTech-Internship-Assignment/static/css/main.2d603f81.css",
+    "main.css": "/AtomTech-Internship-Assignment/static/css/main.11c5d356.css",
     "main.js": "/AtomTech-Internship-Assignment/static/js/main.4517dd65.js",
     "static/js/787.2ab67fb5.chunk.js": "/AtomTech-Internship-Assignment/static/js/787.2ab67fb5.chunk.js",
     "index.html": "/AtomTech-Internship-Assignment/index.html",
-    "main.2d603f81.css.map": "/AtomTech-Internship-Assignment/static/css/main.2d603f81.css.map",
+    "main.11c5d356.css.map": "/AtomTech-Internship-Assignment/static/css/main.11c5d356.css.map",
     "main.4517dd65.js.map": "/AtomTech-Internship-Assignment/static/js/main.4517dd65.js.map",
     "787.2ab67fb5.chunk.js.map": "/AtomTech-Internship-Assignment/static/js/787.2ab67fb5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d603f81.css",
+    "static/css/main.11c5d356.css",
     "static/js/main.4517dd65.js"
   ]
 }
