@@ -1,0 +1,104 @@
+.Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    flex-wrap: wrap;
+    overflow: hidden;
+
+    .Left {
+        flex-basis: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .LeftContainer {
+            .LeftSvgContainer {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .LeftAccountLogoContainer {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                margin: 30px 0 18px 0;
+            }
+            .LeftOrContainer{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 0 20px 0;
+            }
+            form{
+                display: grid;
+                .LeftContainerForm{
+                    .input{
+                        display: grid;
+                        margin: 15px 0 15px 0;
+                        label{
+                            font-size: 14px;
+                            margin: 5px 0 5px 0;
+                        }
+                        input{
+                            font-size: 12px;
+                            padding: 10px;
+                            border: none;
+                            border-radius: 5px;
+                        }
+                    }
+                    .LeftCheckbox{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin: 10px 0 15px 0;
+                        a{
+                            font-size: 12px;
+                        }
+                        label{
+                            display: flex;
+                            justify-content: center;
+                            // align-items: center;
+                            font-size: 12px;
+                        }
+                    } 
+                    button{
+                        width: 260px;
+                        padding: 10px;
+                        border-radius: 10px;
+                        border: none;
+                        color: #fff;
+                        background-color: #605BFF;
+                        font-size: 12px;
+                    }
+                }
+            }
+            .Account{
+                margin: 30px 0 10px 0;
+                font-size: 12px;
+                text-align: center;
+            }
+        }
+    }
+
+    .Right {
+        flex-basis: 65%;
+
+        .RightContainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+@media only screen and (max-width: 700px) {
+    .Left{
+        flex-basis: 100%;
+    }
+    .Right{
+        display: none;
+    }
+  }
